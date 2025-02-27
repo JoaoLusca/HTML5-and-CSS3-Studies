@@ -1,0 +1,18 @@
+body {
+    display: grid;
+    place-items: center;
+    font-family: arial;
+
+}
+
+a {
+    border: 4px solid black; /* <-- adiciona borda nos links*/
+    border-radius: 6px;  /* <--- deixa a borda arredondada*/
+    padding: 4px; /* <--- cria um espaço entre a palavra e a borda*/
+    margin-bottom: 10px; /*<-- adiciona uma margem entre a borda e o espaço de fora*/
+    text-decoration: none /* <-- remove o sublinhado do link*/
+}
+hr {
+    width: 80%; /* <-- ocupada 80% da largura da tela*/
+    border: 1px solid black; 
+}
