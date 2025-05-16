@@ -1,3 +1,6 @@
 a {
     text-decoration-line: none;
 }
+img {
+    border-radius: 50%;
+}
