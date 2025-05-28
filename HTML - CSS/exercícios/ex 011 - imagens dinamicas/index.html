@@ -14,5 +14,31 @@
         <source media="(max-width: 1050px)" srcset="imagem/img-m.png" type="image/png">
         <img src="imagem/img-g.png" alt="imagem flexível">
     </picture>
+
+    <h1>áudios</h1>
+    <p>Vamos aprender a reproduzir áudio  em HTML5</p>
+    
+    <p>ou podemos fazer</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/ave-reflection.mp3" type="audio/mpeg">
+    </audio>
+
+    <h1>Colocando vídeos</h1>
+    <p>Aprendendo a carregar vídeos no seu site hospedados localmente.</p>
+    <video width="560" poster="imagem/camelo.jpg" controls>
+        <source src="midia/video-camelo-webm.webm" type="video/webm">
+        <source src="midia/video-camelo-mp4.mp4" type="videop/mp4">
+        <source src="midia/video-camelo.mp4" type="video/mp4">
+        <p>Seu navegador não possui compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+    <p>Agora colocando vídeos hospedados de forma externa:</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=MYAX12jWnSyOk94O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><!-- feito com youtube -->
+
+    <p>Existem aplicativos de hospedagem de vídeos que você pode usar e pode escolher se os videos são públicos ou privados para determinado público. Temos por exemplo o Vimeo</p>
+
+    <iframe src="https://player.vimeo.com/video/1087082035?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" 
+        allowfullscreen></iframe>
 </body>
 </html>
